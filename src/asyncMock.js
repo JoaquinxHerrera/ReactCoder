@@ -1,25 +1,41 @@
 const productos = [
   {
-    title: "Airforce 1",
+    title: "Nike Dunk Low Retro White Black Panda",
     id: 1,
     price:100,
-    img:"https://i.ibb.co/8NYSVpf/a10c3935790cef0729ba3c485cf43d794b619d0de9bb70adfa65d5a33e52901910306.jpg",
+    img:"https://i.ibb.co/895B74t/nike-dunk-low-retro.jpg",
     category:"trends",
     stock: 10
   },
   {
-    title: "Buzo rosa KoK",
+    title: "Nike SB Dunk High Pro PRM",
     id: 2,
     price:60,
-    img:"https://i.ibb.co/8NYSVpf/a10c3935790cef0729ba3c485cf43d794b619d0de9bb70adfa65d5a33e52901910306.jpg",
+    img:"https://i.ibb.co/19RkmWb/Nike-SB-Dunk-High-Pro-PRM.webp",
     category:"trends",
     stock: 5
   },
   {
-    title: "Jordan dunk",
+    title: "Adidas Forum Low x Bad Bunny Brown",
     id: 3,
     price:150,
-    img:"https://i.ibb.co/8NYSVpf/a10c3935790cef0729ba3c485cf43d794b619d0de9bb70adfa65d5a33e52901910306.jpg",
+    img:"https://i.ibb.co/PCC7gh4/Adidas-Forum-Low-x-Bad-Bunny-Brown.webp",
+    category:"sale",
+    stock: 8
+  },
+  {
+    title: "Adidas Forum Low x Bad Bunny Easter Egg",
+    id: 4,
+    price:150,
+    img:"https://i.ibb.co/s5T2fp2/520765b31-e11443e8f3613bb5c016239419409406-640-0.jpg",
+    category:"sale",
+    stock: 8
+  },
+  {
+    title: "Airforce 1",
+    id: 4,
+    price:150,
+    img:"https://i.ibb.co/R2tCdg8/Air-Force1.webp",
     category:"sale",
     stock: 8
   },
@@ -34,9 +50,7 @@ function getData() {
       const date = new Date().toLocaleDateString;
       resolve(productos, date);
     }, 2000)
-    
   })
-
 }
 
 export function getProductData(idURL) {

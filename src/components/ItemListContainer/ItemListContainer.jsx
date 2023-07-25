@@ -1,14 +1,11 @@
 import {useState, useEffect} from 'react';
 import getData, { getCategoryData } from '../../asyncMock';
-import Item from '../Item/Item';
+import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
 
 function ItemListContainer() {
   const [products, setProducts] = useState([]);
   const {categoryId} = useParams();
-
-
-  
 
   useEffect(()=>{
     async function requestProducts () {
@@ -20,15 +17,7 @@ function ItemListContainer() {
   },[categoryId]);
     
 
-  return (
-    <div>
-      <div className="flex-container">
-          {products.map((item) => (
-          <Item key={item.id} {...item}/>
-          ))}
-      </div>
-    </div>
-  );
+  return <ItemList products={products}/>;
 }
 
 export default ItemListContainer;

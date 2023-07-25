@@ -21,7 +21,6 @@ function NavBar () {
                 <Link to="/cart"><CartWidget/></Link>
                 
             </div>
-             
             
         </div>
         

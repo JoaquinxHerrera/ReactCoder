@@ -16,6 +16,10 @@ function ItemDetailContainer(props){
         }
         requestProduct();
     }, [id]);
+
+    function handleOnAdd(count) {
+        alert(`Agregaste ${count} unidades de${product.title} al carrito`);
+    }
  
     return (
         <>
@@ -29,7 +33,7 @@ function ItemDetailContainer(props){
                 <h4>$ {product.price}</h4>
                 <small>{product.description}</small>
             </div>
-            <ItemCounter initial={1} stock={product.stock} onAdd={(quantity) => console.log("cantidad agregada ", quantity)} />
+            <ItemCounter initial={1} stock={product.stock} onAdd={handleOnAdd} />
         </>
     )
 }

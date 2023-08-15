@@ -7,8 +7,12 @@
 
 .hero{
     height: 80vh;
+    padding-bottom:5em;
     margin: 2em 7.1em;
     display: flex;
+}
+.home{
+    padding-bottom: 7em;
 }
 
 .heroLeft{

@@ -13,7 +13,7 @@ function Hero() {
       };
 
   return (
-    <div>
+    <div className='home'>
         <div className='hero'>
           <div className='heroLeft'>
             <h1>UWEAR. Your favourite shoes in the same place.</h1>

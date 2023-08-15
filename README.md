@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Ecommerce React Joaquin Herrera - Coderhouse
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I am Joaquin, and this is my final project for my ReactJS course in Coderhouse. The project is based on sneakers e-commerce. I hope you like it!
 
-## Available Scripts
+## Screenshots
 
-In the project directory, you can run:
 
-### `npm start`
+![Imgur](https://i.ibb.co/YRQ3x4c/Captura-de-Pantalla-2023-08-15-a-la-s-10-31-28.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Imgur](https://i.ibb.co/df1QjDj/Captura-de-Pantalla-2023-08-15-a-la-s-10-37-13.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Imgur](https://i.ibb.co/yhymVXm/Captura-de-Pantalla-2023-08-15-a-la-s-10-58-00.png)
 
-### `npm test`
+![Imgur](https://i.ibb.co/J3wVxhd/Captura-de-Pantalla-2023-08-15-a-la-s-10-59-00.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+![Imgur](https://i.ibb.co/BNWbxTK/Captura-de-Pantalla-2023-08-15-a-la-s-10-59-38.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Imgur](https://i.ibb.co/BjqJTCM/Captura-de-Pantalla-2023-08-15-a-la-s-11-01-12.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Data
 
-### `npm run eject`
+* **Student:** Gonzalo Cortez
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* **LinkedIn:** https://www.linkedin.com/in/joaquin-herrera-396150183/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* **GitHub:** https://github.com/JoaquinxHerrera/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* **Course:** React / Coderhouse
 
-## Learn More
+* **Commission:** 43305
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* **Professor:** Santiago Salkin
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+* **You can see the project in Vercel:  https://uwear.vercel.app/ ** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* **React.js**
 
-### Making a Progressive Web App
+### Frontend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* **Firestore**
 
-### Advanced Configuration
+### Librerías 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* **Google fonts**
+* **Bootstrap**
+* **SweetAlert**
+* **Toastify**
 
-### Deployment
+### Source code control
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* **git**
 
-### `npm run build` fails to minify
+-------------------------------------------------
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for your attention!

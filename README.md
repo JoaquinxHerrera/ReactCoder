@@ -13,15 +13,18 @@ I am Joaquin, and this is my final project for my ReactJS course in Coderhouse. 
 
 ![Imgur](https://i.ibb.co/J3wVxhd/Captura-de-Pantalla-2023-08-15-a-la-s-10-59-00.png)
 
+![Imgur](https://i.ibb.co/PT6hzq1/Captura-de-Pantalla-2023-08-15-a-la-s-10-59-14.png)
+
+![Imgur](https://i.ibb.co/BjqJTCM/Captura-de-Pantalla-2023-08-15-a-la-s-11-01-12.png)
 
 ![Imgur](https://i.ibb.co/BNWbxTK/Captura-de-Pantalla-2023-08-15-a-la-s-10-59-38.png)
 
-![Imgur](https://i.ibb.co/BjqJTCM/Captura-de-Pantalla-2023-08-15-a-la-s-11-01-12.png)
+
 
 
 ## Data
 
-* **Student:** Gonzalo Cortez
+* **Student:** Joaquin Herrera
 
 * **LinkedIn:** https://www.linkedin.com/in/joaquin-herrera-396150183/
 

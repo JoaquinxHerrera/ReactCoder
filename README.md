@@ -40,7 +40,7 @@ I am Joaquin, and this is my final project for my ReactJS course in Coderhouse. 
 * **Professor:** Santiago Salkin
 
 
-* **You can see the project in Vercel:  https://uwear.vercel.app/ ** 
+* **You can see the project in Vercel:**   https://uwear.vercel.app/ 
 
 
 ### Frontend

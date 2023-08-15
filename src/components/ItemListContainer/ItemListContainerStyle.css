@@ -1,0 +1,72 @@
+.load{
+    display: flex;
+    width: 20em;
+    border: 1px solid black;
+    margin-left: 10em;
+}
+
+.hero{
+    height: 80vh;
+    margin: 2em 7.1em;
+    display: flex;
+}
+
+.heroLeft{
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+}
+.heroLeft h1{
+    font-family: "bebasNeue";
+    font-size: 3rem;
+}
+
+.heroLeft h3{
+    font-size: 1.1rem;
+    margin-top: 0;
+    line-height: normal;
+    margin-right: 0.3em;
+}
+
+.heroLeft button{
+    background-color:#D9D9D9;
+    border-radius: 8px;
+    border:none;
+    padding: 0.3em 1.2em ;
+    margin-top: 0.5em;
+    width: 14em;
+}
+
+.heroLeft button:hover{
+    background-color: #434343;
+    color:white;
+}
+
+
+
+.arrow{
+   margin-left: 6em;
+   margin-top: 1em;
+   height: 10em;
+   animation: moveArrow 1s alternate-reverse infinite;
+
+}
+
+@keyframes moveArrow{
+    from {
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.heroRight img{
+    height: 70vh;
+}
+
+.ourProducts{
+    font-family: BebasNeue;
+    display: flex;
+    justify-content: center;
+}

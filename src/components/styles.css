@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&family=Poppins:wght@100;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif, "Bebas Neue";
+    font-size: 20px;
+}
+
+body{
+    background-color: white;
+}
+
+.header{
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    padding: 5px 10%;
+    position:relative;
+    z-index: 1;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 110px;
+    width: auto;
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+.header .nav-links a:hover{
+    font-weight: 600;
+}
+
+/*.CartWidget{
+    width: 90px;
+    height: 90px;
+    position:absolute;
+    z-index: 9;
+    left:60em;
+}*/
+
+.cart{
+    height: 45px;
+    margin-right: 50%;
+    Width:50px;
+    
+}
+
+.cartNumber{
+    border-radius: 50%;
+    font-size: 0.8rem;
+    color:white;
+    padding: 0.1em 0.5em;
+    position:absolute;
+    top:70px;
+    right:135px;
+    background-color: red;
+}
+
+.greeting{
+    display: flex;
+    justify-content: center;
+
+}
+
+.greeting p{
+    height: 4em;
+    width: 35em;
+    text-align: center;
+    padding: 1em;
+    background-color: antiquewhite;
+}
+
+.titleItemCard{
+    margin-left: 2.9em;
+}
+
+.itemCard{
+  text-align: center; 
+  position: relative;
+  width: 320px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 3px black;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.20s ease-in;
+  margin: 2em 0em;
+}
+
+
+
+.itemCardHeader h2{
+    font-size: 1.5rem;
+    padding: 16px 2px;
+    color: rgb(105, 105, 105);
+}
+
+.itemCardImg{
+    width: 15em;
+    
+}
+
+.itemCard:hover{
+    box-shadow: 0px 4px 15px black;
+    transform: translateY(-6px);
+}
+
+.itemCardDetail{
+    padding: 12px 8px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn{
+    margin: 1em;
+}
+
+.active{             
+    font-weight: bold;        
+    text-decoration: underline; 
+}
+
+.footer{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(206, 206, 206);
+    height: 5em;
+}
+
+.footer svg{
+    width: 1.4em;
+}

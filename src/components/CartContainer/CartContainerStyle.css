@@ -1,0 +1,101 @@
+.body{
+    margin: 2em 7em;
+}
+
+.characteristics{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.characteristics img{
+    width: 10em;
+}
+
+.characteristics h2{
+    font-size:.80rem ;
+    margin-top: 0.5em;
+}
+
+.filtros{
+    display: flex;
+  
+    font-weight:900;
+}
+
+.deleteButton{
+    border: none;
+    background-color: white;
+    margin-bottom: 0.80em;
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-right: -8em;
+    color:rgb(74, 74, 74);
+    text-decoration: underline;
+}
+
+.deleteButton:hover{
+    color: black;
+    
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+  
+div th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+  
+
+  
+  
+td img {
+    width: 10em;
+    height: 10em;
+    object-fit: cover;
+}
+
+.lastRow{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3em;
+    margin-left: 0.5em;
+}
+  
+.discountCart{
+    display: flex;
+    margin-top: 1em;
+}
+
+
+
+.divisionLine{
+    margin-right:-20em;
+}
+
+.checkoutButton{
+    background:yellow;
+    border: none;
+    color:black;
+    border-radius: 8px;
+    margin-left: 1em;
+    padding: 0.4em 2em;
+    text-decoration: none;
+}
+
+.checkoutButton:hover{
+    background-color: rgb(186, 186, 0);
+}
+
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15em;
+
+}

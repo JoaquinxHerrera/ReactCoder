@@ -1,0 +1,67 @@
+.itemDetailBody{
+    display: flex;
+    margin: 3em 0em;
+    gap:1em;
+    justify-content: center;
+}
+
+.itemDetailRight h2{
+    font-size: 1.8rem;
+}
+.detailPrice{
+    font-size: 2rem;
+    font-weight:300;
+}
+
+.detailImg{
+    object-fit: cover;
+    width: 100%;
+    height: 20em;
+    
+}
+
+.itemDetailLeft{
+    width:40%;
+}
+
+.itemDetailRight{
+    width: 20em;
+}
+
+.detailDescription{
+    font-size: 0.8rem;
+    margin-top: 1em;
+}
+
+.goCartButton{
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 0.3em 1.3em;
+    font-size: 0.9rem;
+    margin-right:0.4em;
+    margin-bottom: 0.4em;
+    background-color: rgb(200, 200, 200);
+}
+
+.goCartButton:hover{
+    background-color:gray;
+}
+
+.discountDetail{
+    display: flex;
+}
+
+.discountDetail p{
+    margin-top: 0.4em;
+    margin-bottom: 0em;
+}
+
+.noDiscountDetail{
+    font-size: 1.7rem;
+}
+
+.buttons{
+    margin-bottom: 0.3em;
+
+}

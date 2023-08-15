@@ -1,6 +1,6 @@
 # Ecommerce React Joaquin Herrera - Coderhouse
 
-I am Joaquin, and this is my final project for my ReactJS course in Coderhouse. The project is based on sneakers e-commerce. I hope you like it!
+I am Joaquin, and this is my final project for my ReactJS course in Coderhouse. The project is based on a sneaker e-commerce. I hope you like it!
 
 ## Screenshots
 

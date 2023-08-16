@@ -1,13 +1,12 @@
 .infoSection{
     display: flex;
-    margin-bottom: 12.3em;
+    justify-content: center;
 }
 .checkoutButton{
     background:yellow;
     border: none;
     border-radius: 8px;
-    margin-left: 1em;
-    padding: 0.4em 2em;
+   
     font-size: 0.2;
     font-size: 0.9rem;
     margin-right: 0.5em;
@@ -23,7 +22,6 @@
     
 }
 form{
-    margin-left: 7.1em;
     margin-top: 2em;
 }
 

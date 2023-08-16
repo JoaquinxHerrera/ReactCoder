@@ -46,7 +46,7 @@ function CartContainer(props) {
                                             <button className='deleteButton' onClick={() => removeItem(item.id)}>Delete product</button>
                                         </td>
                                         <svg className="divisionLine" viewBox="0 0 1156 1" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <line y1="0.5" x2="1156" y2="0.5" stroke="#6A6A6A" stroke-opacity="0.8"/>
+                                            <line y1="0.5" x2="1156" y2="0.5" stroke="#6A6A6A" stroke-opacity="0.8"/>
                                         </svg>
                                     </td>
                                     

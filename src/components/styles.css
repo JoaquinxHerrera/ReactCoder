@@ -149,6 +149,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: auto;
     background-color: rgb(206, 206, 206);
     height: 5em;
 }

@@ -16,11 +16,11 @@ import Footer from './components/Footer';
 function App() {
   
   return (
-    <div>
+    <div className='app'>
       <CartContextProvider>
         <BrowserRouter>
           <NavBar />
-          <Routes>
+          <Routes className="content">
             <Route path="/category/:categoryId" element={ <ItemListContainer/>} />
             <Route path="/" element={<Hero/>} />
             <Route path="/product/:id" element={<ItemDetailContainer/>}/>

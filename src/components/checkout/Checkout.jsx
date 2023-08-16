@@ -57,6 +57,7 @@ function Checkout() {
             surname:"",
             age:"",
         })
+        navigate("/")
     }
 
     return(

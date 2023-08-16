@@ -64,3 +64,18 @@ div h3{
     
 
 }
+
+.cancelButton{
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 0.48em 1.3em;
+    font-size: 0.9rem;
+    margin-right:0.4em;
+    margin-bottom: 0.4em;
+    background-color: rgb(200, 200, 200);
+}
+
+.cancelButton:hover{
+    background-color:gray;
+}

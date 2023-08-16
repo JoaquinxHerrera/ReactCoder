@@ -51,7 +51,7 @@
 .arrow{
    margin-left: 6em;
    margin-top: 1em;
-   height: 10em;
+   height: 90vh;
    animation: moveArrow 1s alternate-reverse infinite;
 
 }

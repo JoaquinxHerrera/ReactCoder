@@ -1,8 +1,8 @@
 .itemDetailBody{
     display: flex;
-    margin: 3em 0em;
+    height: 72vh;
     gap:1em;
-    height: 57.4vh;
+    align-items: center;
     justify-content: center;
 }
 

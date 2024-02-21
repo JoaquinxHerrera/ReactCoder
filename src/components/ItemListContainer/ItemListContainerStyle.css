@@ -1,0 +1,176 @@
+.load{
+    display: flex;
+    width: 20em;
+    border: 1px solid black;
+    margin-left: 10em;
+}
+
+.hero{
+    height: 80vh;
+    padding-bottom:5em;
+    margin: 2em 10vw;
+    display: flex;
+}
+.home{
+    padding-bottom: 1em;
+}
+
+.heroLeft{
+    margin-right: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.heroLeft h1{
+    font-family: "bebas neue";
+    font-size: 4rem;
+    
+}
+
+.heroLeft h3{
+    font-size: 1.1rem;
+    margin-top: 0;
+    line-height: normal;
+    margin-right: 0.3em;
+}
+
+.heroLeft button{
+    background-color:#D9D9D9;
+    border-radius: 8px;
+    border:none;
+    padding: 0.3em 1.2em ;
+    margin-top: 0.5em;
+    width: 14em;
+}
+
+.heroLeft button:hover{
+    background-color: #434343;
+    color:white;
+}
+
+
+
+.arrow{
+   margin-left: 6em;
+   margin-top: 1em;
+   height: 90vh;
+   animation: moveArrow 1s alternate-reverse infinite;
+
+}
+
+@keyframes moveArrow{
+    from {
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+.heroRight img{
+    height: 70vh;
+}
+
+.ourProducts{
+    font-family: 'Bebas Neue';
+    display: flex;
+    justify-content: center;
+}
+
+.discountHero{
+    background: url('/public/imagenes/dicountBanner.png');
+    height: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center; 
+}
+
+.discountTop h1{
+    color: white;
+    font-family: 'bebas neue';
+    font-size: 2.2rem;
+}
+
+.discountBottom button{
+    border-radius: 20px;
+    padding: 0.2em 1em;
+    margin-left: 2em;
+    border: none;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #c8c8c8;
+}
+
+.discountBottom button:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.gif1{
+    clip-path: polygon(0% 30%, 100% 30%, 100% 70%, 0% 70%);
+    width: 99vw;
+    margin-top: -17em;
+    margin-bottom: -10em;
+}
+
+.gif2{
+    clip-path: circle(20% at center);
+    width: 100vw;
+}
+
+@media screen and (max-width: 1440px){
+    .gif1{
+        margin-top: -13em;
+        margin-bottom: -5em;
+    }
+    .discountHero{
+        height: 6.5em;
+    }
+    .discountBottom button{
+        font-size: 0.9rem;
+    }
+    .hero{
+        margin-top: 0.5em;
+    }
+    .heroLeft h1{
+        font-size: 2.5rem;
+    }
+    .heroLeft h3{
+        font-size: 1rem;
+    }
+    .heroLeft button{
+        font-size: 0.9rem;
+    }
+    .arrow{
+        height: 30vh;
+        margin-top: 0.3em;
+    }
+    .heroRight img{
+        height: 65vh;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .heroLeft h1{
+        font-size: 2rem;
+    }
+    .discountHero{
+        height: 5em;
+    }
+    .discountTop h1{
+        font-size: 1.7rem;
+    }
+    .discountBottom button{
+        font-size: 0.8rem;
+    }
+    .gif1{
+        display: none;
+    }
+    .heroRight{
+        display: none;
+    }
+    
+   
+}

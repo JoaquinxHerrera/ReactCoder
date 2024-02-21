@@ -1,0 +1,108 @@
+.infoSection{
+    display: flex;
+    justify-content: center;
+}
+.checkoutButton{
+    background:yellow;
+    border: none;
+    border-radius: 8px;
+   
+    font-size: 0.2;
+    font-size: 0.9rem;
+    margin-right: 0.5em;
+}
+
+.checkoutButton:hover{
+    background-color: rgb(186, 186, 0);
+}
+
+.infoContacto{
+    display: flex;
+    margin-bottom: 0.5em;
+    
+}
+form{
+    margin-top: 2em;
+}
+
+form h2{
+    font-size: 1.3em;
+}
+
+
+form div label{
+    margin-right: 0.5em;
+}
+
+.contactBox{
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(232, 232, 232);
+    width: 30em;
+    padding: 1em 3em;
+    margin-bottom: 1em;
+}
+
+.lineaCheckout{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.paymentOptions{
+    width:25em;
+    margin-left: 1em;
+    object-fit: cover;
+}
+
+div h3{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 2.2em;
+    
+
+}
+
+.cancelButton{
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 0.48em 1.3em;
+    font-size: 0.9rem;
+    margin-right:0.4em;
+    margin-bottom: 0.4em;
+    background-color: rgb(200, 200, 200);
+}
+
+.cancelButton:hover{
+    background-color:gray;
+}
+
+.lineaCheckoutMobile{
+    display: none;
+}
+
+@media screen and (max-width: 768px){
+    .lineaCheckout{
+        display: none
+    }
+    .lineaCheckoutMobile{
+        display: flex;
+        margin: 1em auto;
+    }
+    .infoSection{
+        width: 90%;
+        margin: auto;
+    }
+    .contactBox{
+        padding: 1em 1em;
+        width: auto;
+    }
+    .goCartButton{
+        width: 100%;
+    }
+    .paymentOptions{
+        margin: 0;
+        width: 100%;
+    }
+}

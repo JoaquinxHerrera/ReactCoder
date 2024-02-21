@@ -1,0 +1,30 @@
+.error404Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+
+.error404Body img{
+    width: 30em;
+}
+
+.error404Body h1{
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 768px){
+    .error404Body{
+        margin-bottom: -16em;
+    }
+
+    .error404Body img{
+        width: 100%;
+    }
+    .error404Body h1{
+        font-size: 2rem;
+        margin: 0 0.5em;
+    }
+}

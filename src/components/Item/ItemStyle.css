@@ -1,0 +1,53 @@
+.itemCard{
+    height: 24.5em;
+    background-color: rgb(235, 235, 235);
+}
+
+.itemCardHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itemCardHeader h2{
+    font-size: 1.2rem;
+    height: 4em;
+    padding:1em;
+    color: black;
+
+
+}
+
+.itemCardImg {
+    width: 90%;
+    height: 11em;
+    object-fit: cover;
+}
+
+.discount{
+    display: flex;
+    justify-content: center;
+    gap: 0.2em
+}
+
+.itemCardDetail{
+    margin:0.5em;
+    height: 3em;
+}
+
+.itemCardDetail p{
+    padding:0;
+    margin:0;
+}
+
+.btn{
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    padding: 0.3em 1.3em;
+    margin-bottom: 1em;
+    background-color: rgb(200, 200, 200);
+}
+
+.btn:hover{
+    background-color:gray;
+}

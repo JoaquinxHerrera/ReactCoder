@@ -199,7 +199,21 @@ body{
       background-color: rgb(255, 255, 255);
     }
     .cartSection{
-        display: none;
+        margin-left: -10em;
+        
+    }
+    .cart{
+        width: 1.7em;
+    }
+    .cartNumber{
+        border-radius: 50%;
+        font-size: 0.7rem;
+        color:white;
+        padding: 0.1em 0.7em;
+        position:absolute;
+        top:70px;
+        right:7vw;
+        
     }
     .header .logo img{
         width: 4em;

@@ -235,4 +235,14 @@ body{
         justify-content: end;
         gap:0.7em;
     }
+    .cartNumber{
+        border-radius: 50%;
+        font-size: 0.8rem;
+        color:white;
+        padding: 0.1em 0.5em;
+        position:absolute;
+        top:70px;
+        right:18vw;
+        background-color: red;
+    }
 }

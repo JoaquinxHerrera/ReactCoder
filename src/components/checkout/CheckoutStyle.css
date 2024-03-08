@@ -94,6 +94,10 @@ div h3{
         width: 90%;
         margin: auto;
     }
+
+    .infoContacto input{
+        width: 100%;
+    }
     .contactBox{
         padding: 1em 1em;
         width: auto;

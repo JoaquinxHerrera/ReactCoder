@@ -72,3 +72,9 @@
     font-size: 0.9rem;
 }
 
+@media screen and (max-width: 768px){
+    .itemDetailRight{
+        width: 10em;
+        margin-left: 1em;
+    }
+}

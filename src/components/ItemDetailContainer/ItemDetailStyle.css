@@ -71,6 +71,10 @@
     .itemDetailBody{
         flex-direction: column;
     }
+
+    .itemDetailRight{
+        width: 90vw;
+    }
     .itemDetailLeft{
         width:83%;
         padding-top: 3em;

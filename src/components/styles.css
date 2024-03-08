@@ -191,13 +191,19 @@ body{
       width: 100%;
       z-index: 1;
       color: rgb(0, 0, 0);
+      justify-content: center;
+      gap:3em;
+      
     }
   
     .menu.abierto {
-      display: flex; /* Mostrar el menú cuando está abierto */
-      margin-top: 2em;
+      display: flex; 
+      height: 100vh;
+      margin-top: -2em;
+      padding: 0;
       background-color: rgb(255, 255, 255);
     }
+
     .cartSection{
         margin-left: -10em;
         
@@ -215,11 +221,18 @@ body{
         right:7vw;
         
     }
+    
     .header .logo img{
         width: 4em;
         height: 4em;
     }
     .footer{
         margin-top: 14em;
+    }
+
+    .navMobile{
+        display: flex;
+        justify-content: end;
+        gap:0.7em;
     }
 }

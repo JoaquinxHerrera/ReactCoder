@@ -171,6 +171,16 @@
     .heroRight{
         display: none;
     }
-    
+    .heroLeft{
+        width: 100%;
+        margin-top: 3em;
+    }
+    .divHero{
+        width: 90%;
+    }
+    .arrow{
+        display: none;
+       
+    }
    
 }

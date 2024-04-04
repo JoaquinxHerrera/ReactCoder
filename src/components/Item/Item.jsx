@@ -32,7 +32,7 @@ function Item(props) {
         }
         { discount ? <p>Discount: {discount}% </p> : ""}
       </div>
-      <Link to={`/product/${id}`}><ButtonComponent colorFondo="gray" textcolor="white">Ver Producto</ButtonComponent></Link>
+      <Link to={`/product/${id}`}><ButtonComponent colorFondo="gray" textcolor="white">View Product</ButtonComponent></Link>
       
     </div>
 
